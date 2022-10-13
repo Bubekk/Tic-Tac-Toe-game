@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Concert+One&family=Montserrat+Alternates:wght@100;400;500;700&display=swap" rel="stylesheet">
+    <title>TicTacToe</title>
+</head>
+<body>
+    <div id="background">
+        <div id="shape1"></div>
+        <div id="shape2"></div>
+        <div id="shape3"></div>
+    </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">TicTacToe</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="main">
+        <h1>TIC TAC TOE</h1>
+        <div id="game-wrapper">
+            <div class="container">
+                <button type="button" role="button" id="item-1">
+                    <span id="sitem-1" class="btn-value material-symbols-outlined"> </span>
+                </button>
+                <button type="button" role="button" id="item-2">
+                    <span id="sitem-2" class="btn-value material-symbols-outlined"> </span>
+                </button>
+                <button type="button" role="button" id="item-3">
+                    <span id="sitem-3" class="btn-value material-symbols-outlined"> </span>
+                </button>
+                <button type="button" role="button" id="item-4">
+                    <span id="sitem-4" class="btn-value material-symbols-outlined"> </span>
+                </button>
+                <button type="button" role="button" id="item-5">
+                    <span id="sitem-5" class="btn-value material-symbols-outlined"> </span>
+                </button>
+                <button type="button" role="button" id="item-6">
+                    <span id="sitem-6" class="btn-value material-symbols-outlined"> </span>
+                </button>
+                <button type="button" role="button" id="item-7">
+                    <span id="sitem-7" class="btn-value material-symbols-outlined"> </span>
+                </button>
+                <button type="button" role="button" id="item-8">
+                    <span id="sitem-8" class="btn-value material-symbols-outlined"> </span>
+                </button>
+                <button type="button" role="button" id="item-9">
+                    <span id="sitem-9" class="btn-value material-symbols-outlined"> </span>
+                </button>
+            </div>
+            <button id="reset-button" aria-label="reset button"><span>DRAW? RESET!</span></button>
+            <p id="player">Player One</p>
+            <div id="score">
+                <h2>Score: </h2>
+                <p> Player One: <span id="player-one-score"></span></p>
+                <p> Player Two: <span id="player-two-score"></span></p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
