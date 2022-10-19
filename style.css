@@ -44,7 +44,6 @@ li > a {
     color: white;
     font-size: 2rem;
     text-decoration: none;
-    border-radius: 25px;
     padding: 5px;
     font-family: 'Amatic SC', cursive;
     transition: all 0.2s;
@@ -254,4 +253,132 @@ li > a:hover {
     transform: translate(20vw, -100vh)
     rotate(200deg);
    }
+}
+
+
+
+
+@media only screen and (min-width: 768px) and ( max-width: 1023px) {
+
+    li > a {
+        font-size: 1.5rem;
+        padding: 3px;
+    }
+
+    #main h1 {
+        font-size: 5rem;
+    }
+
+    #game-wrapper {
+        width: 400px;
+        height: 500px;
+        border-radius: 70px 5px 70px 5px;
+        box-shadow: 8px 8px 17px 0px rgba(56, 47, 6, 0.562),
+                    inset 7px 9px 16px -7px rgba(207, 209, 73, 0.63);
+    }
+    
+    .container {
+        width: 240px;
+        display: grid;
+        grid-template-columns: 80px 80px 80px;
+        grid-template-rows: 80px 80px 80px;
+        margin: 40px 40px 20px 40px;
+    }
+
+    .container > #item-1, #item-4, #item-7 {
+        border-right: 3px solid white;
+    }
+    
+    .container > #item-2, #item-5, #item-8 {
+        border-right: 3px solid white;
+    }
+    
+    .container > #item-1, #item-2, #item-3 {
+        border-bottom: 3px solid white;
+    }
+    
+    .container > #item-4, #item-5, #item-6 {
+        border-bottom: 3px solid white;
+    }
+
+    #reset-button {
+        margin-bottom: .5rem;
+    }
+    
+    #reset-button span {
+        font-size:  2rem;
+    }
+
+    #score p {
+        margin-right: 30px;
+        margin-left: 30px;
+        font-size: 1.8rem;
+    }
+    
+    #score h2 {
+        font-size: 2rem;
+    }
+}
+
+
+@media only screen and ( max-width: 767px) {
+
+    li > a {
+        font-size: 1.5rem;
+        padding: 3px;
+    }
+
+    #main h1 {
+        font-size: 4rem;
+    }
+
+    #game-wrapper {
+        width: 700px;
+        height: 600px;
+        border-radius: 70px 5px 70px 5px;
+        box-shadow: 8px 8px 17px 0px rgba(56, 47, 6, 0.562),
+                    inset 7px 9px 16px -7px rgba(207, 209, 73, 0.63);
+    }
+    
+    .container {
+        width: 390px;
+        display: grid;
+        grid-template-columns: 130px 130px 130px;
+        grid-template-rows: 130px 130px 130px;
+        margin: 40px 40px 20px 40px;
+    }
+
+    .container > #item-1, #item-4, #item-7 {
+        border-right: 3px solid white;
+    }
+    
+    .container > #item-2, #item-5, #item-8 {
+        border-right: 3px solid white;
+    }
+    
+    .container > #item-1, #item-2, #item-3 {
+        border-bottom: 3px solid white;
+    }
+    
+    .container > #item-4, #item-5, #item-6 {
+        border-bottom: 3px solid white;
+    }
+
+    #reset-button {
+        margin-bottom: .5rem;
+    }
+    
+    #reset-button span {
+        font-size:  2rem;
+    }
+
+    #score p {
+        margin-right: 30px;
+        margin-left: 30px;
+        font-size: 1.8rem;
+    }
+    
+    #score h2 {
+        font-size: 2rem;
+    }
 }
