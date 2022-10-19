@@ -74,6 +74,7 @@ li > a:hover {
 #game-wrapper {
     width: 500px;
     height: 600px;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
